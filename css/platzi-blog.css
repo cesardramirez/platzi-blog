@@ -13,9 +13,9 @@ header {
 	background: #273B47;
 	padding: 0 15px;
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	height: 50px;
-	justify-content: space-between;
 }
 
 h2 {
@@ -33,6 +33,10 @@ footer {
 	display: flex;
 	align-items: center;
 	height: inherit;
+}
+
+.header-right .button {
+	margin-left: 10px;
 }
 
 .header-avatar img {
@@ -105,7 +109,6 @@ nav a:hover {
 
 .button.red {
 	background: #ff4842;
-	margin-left: 10px;
 }
 
 .button:hover {
