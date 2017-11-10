@@ -241,6 +241,8 @@ nav a:hover {
 }
 
 .pager a {
+	display: block;
+	height: inherit;
 	padding: 0 10px;
 }
 
